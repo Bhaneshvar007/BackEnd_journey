@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+     <!-- <h1> Roll Dice : <%= Math.floor(Math.random() * 10) + 1 %> </h1> -->
+    <h1>Your random number is: <%= randomNumber %></h1>\
+    <% if(randomNumber == 6){%>  
+        <h2>You Will got the max number</h2>
+    <%}%>
+    <% if(randomNumber >= 6){%>  
+        <h2>Please Dice a roll</h2>
+    <%}%>
+    <%if(randomNumber %2 == 0){%>  
+        <h2>Even</h2>
+    <%}%>
+</body>
+</html>
