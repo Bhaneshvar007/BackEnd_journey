@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-top: 1rem;
+}
+
+div {
+    padding: 20px;
+}
+
+.chats {
+    background-color:green;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 250px;
+    display: inline-block;
+}
+
+.chats .left, .chats .right {
+    margin-bottom: 10px;
+}
+
+.left {
+    background-color: #e7f0ff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #333;
+}
+
+.right {
+    background-color: #d4edda;
+    border-radius: 5px;
+    padding: 10px;
+    color: #333;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+button{
+    padding: .8rem 2.5rem;
+    background-color: green;
+     border:2px solid #333;
+     color: #d4edda;
+ }
